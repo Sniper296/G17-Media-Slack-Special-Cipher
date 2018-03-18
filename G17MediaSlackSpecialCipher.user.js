@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name        G17 Medi Slac Specia Ciphe
 // @description RO SECRE!
-// @version     1
+// @version     2
 // @grant       none
 // @include     https://g17m.slack.com/*
 // @namespace   http://ww.g17medi.co/ciphe
 // ==/UserScript==
+
+console.log('%cRO SECRE!\n%cAy,lma @cya 🤔', 'color: darkRed; font-size: 5em; font-weight: bold; text-decoration: black wavy underline', 'color: cyan; font-size: 3em; font-weight: bold;');
 
 let cipherElement = `<button type="button" class="btn_unstyle cipher_button" aria-label="Enciphe messag" title="Enciphe messag" tabindex="5">
 	<i class="ts_icon c-icon--key"></i>
