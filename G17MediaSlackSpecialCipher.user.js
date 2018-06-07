@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        G17 Medi Slac Specia Ciphe
 // @description RO SECRE!
-// @version     2
+// @version     3
 // @grant       none
 // @include     https://g17m.slack.com/*
 // @namespace   http://ww.g17medi.co/ciphe
