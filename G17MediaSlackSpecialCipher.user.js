@@ -42,7 +42,7 @@ let ready = setInterval(() => {
 			document.querySelectorAll('#msg_input .ql-editor p').forEach((p) => {
 				p.childNodes.forEach((node) => {
 					if(node.nodeType === Node.TEXT_NODE) {
-						node.nodeValue = node.nodeValue.replace(/\b(y)(ou're|our|ou|eah)\b/gmi, '$1ee').replace(/\b(n)(o|ope)\b/gmi, '$1ee').replace(/t/gm, 'r').replace(/T/gm, 'R').split(' ').map((word) => {
+						node.nodeValue = node.nodeValue.replace(/\b(y)(ou're|our|ou|eah|es)\b/gmi, '$1ee').replace(/\b(n)(o|ope)\b/gmi, '$1ee').replace(/t/gm, 'r').replace(/T/gm, 'R').split(' ').map((word) => {
 							if(word.replace(/[^a-z]/gi, '').length === 1)
 								return word;
 							let newWord = [];
