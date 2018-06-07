@@ -59,7 +59,9 @@ let ready = setInterval(() => {
 						}).join(' ');
 					}
 				});
-				p.append(['©','🄯','℗','®','℠','™'][Math.floor(Math.random() * 6)]);
+				let eol = ['©','🄯','℗','®','℠','™'];
+				if(p.childElementCount !== 1 && p.childNodes[0].tagName !== "BR")
+					p.append(eol[Math.floor(Math.random() * eol.length)]);
 			});
 		});
 	}
