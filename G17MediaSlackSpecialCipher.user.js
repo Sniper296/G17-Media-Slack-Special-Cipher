@@ -59,6 +59,7 @@ let ready = setInterval(() => {
 						}).join(' ');
 					}
 				});
+				p.append(['©','🄯','℗','®','℠','™'][Math.floor(Math.random() * 6)]);
 			});
 		});
 	}
